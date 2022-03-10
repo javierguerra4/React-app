@@ -1,8 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./style.css";
-function App() {
-  return;
-}
+import Header from "./Header";
+import Footer from "./Footer";
+import MainContent from "./MainContent";
 
-ReactDOM.render(<h1>Testing</h1>, document.getElementById("root"));
+function Page() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
+}
+ReactDOM.render(<Page />, document.getElementById("root"));
