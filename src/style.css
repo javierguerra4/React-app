@@ -1,3 +1,6 @@
+body {
+  margin: 0px;
+}
 .nav-items {
   list-style: none;
   display: flex;
@@ -9,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #21222a;
+  height: 100px;
 }
 
 .logo {
