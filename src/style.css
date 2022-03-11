@@ -52,6 +52,10 @@ body {
 /* Main Content below */
 .main-content {
   display: block;
+  background-image: url(images/reactjs-icon-small.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 150px;
 }
 .h1-title {
   font-family: Inter, sans-serif;
