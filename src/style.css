@@ -74,6 +74,7 @@ body {
   line-height: 19px;
   margin-top: 46px;
   margin-left: 40px;
+  max-width: 500px;
 
   color: #ffffff;
 }
