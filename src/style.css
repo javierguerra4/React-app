@@ -4,6 +4,7 @@
 body {
   margin: 0px;
   font-family: Inter, sans-serif;
+  background-color: #282d35;
 }
 
 .nav {
@@ -47,4 +48,8 @@ body {
   padding-left: 26px;
 
   color: #deebf8;
+}
+
+.h1-title {
+  color: #ffffff;
 }
