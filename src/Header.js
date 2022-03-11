@@ -4,12 +4,11 @@ export default function Header() {
   return (
     <header className="header-items">
       <nav className="nav">
-        <img alt="Logo" src={logo} />
-        <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
+        <div className="logo-text">
+          <img className="logo" alt="Logo" src={logo} />
+          <h1 className="react-facts">ReactFacts</h1>
+        </div>
+        <h1 className="extraTitle">React Course - Project 1</h1>
       </nav>
     </header>
   );
