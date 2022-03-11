@@ -82,3 +82,8 @@ body {
 li {
   margin: 20px 0;
 }
+
+.list > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
